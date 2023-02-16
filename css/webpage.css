@@ -1,0 +1,479 @@
+html {
+    font-size: 20px;
+    background-color: #F5F0EC;
+}
+
+body {
+    background-color: #F5F0EC!important;
+    font-size: 0.75rem!important;
+    font-family: 'Lora', serif!important;
+}
+
+.container {
+    max-width: 800px!important;
+}
+
+.btn {
+    font-size: 0.75rem!important;
+}
+
+.btn-warning {
+    color: #ffffff!important;
+    background-color: #B98B75!important;
+    border: 0!important;
+    padding: .6rem 1.3rem!important;
+    border-radius: 50px!important;
+    font-weight: 600!important;
+    position: relative!important;
+    z-index: 100;
+}
+
+.btn-warning:focus {
+    box-shadow: 0 0 0 0.2rem rgb(159 131 118 / 50%)!important;
+}
+
+
+.btn-primary {
+    color: #ffffff!important;
+    background-color: #054D67!important;
+    border: 0!important;
+    padding: .6rem 1.3rem!important;
+    border-radius: 50px!important;
+    font-weight: 600!important;
+    font-size: .65rem!important;
+    -webkit-box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.1); 
+    box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.1);
+    position: relative!important;
+    z-index: 100;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgb(12 73 96 / 50%)!important;
+}
+
+.btn-primary object {
+    position: relative;
+    top: 3px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(272deg) brightness(101%) contrast(102%);
+}
+
+*:focus {
+    outline: none!important;
+}
+
+a object {
+    pointer-events: none;
+}
+
+.btn-secondary {
+    color: #ffffff!important;
+    background-color: #CCAB9D!important;
+    border: 0!important;
+    padding: .6rem 1.3rem!important;
+    border-radius: 50px!important;
+    font-weight: 600!important;
+    font-size: .65rem!important;
+    -webkit-box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.1); 
+    box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.1);
+    position: relative!important;
+    z-index: 100;
+}
+
+.btn-secondary:focus {
+    box-shadow: 0 0 0 0.2rem rgb(192 156 141 / 50%)!important;
+}
+
+.btn-secondary object {
+    position: relative;
+    top: 3px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(272deg) brightness(101%) contrast(102%);
+}
+
+
+.available-appointment.alert {
+    margin: 0;
+    border: 0;
+    background-color: #054D67;
+    color: #ffffff;
+    border-radius: 0;
+}
+
+.available-appointment.alert a {
+    font-size: .65rem!important;
+}
+
+.available-appointment.alert a object {
+    position: relative;
+    top: 2px;
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(272deg) brightness(101%) contrast(102%);
+}
+
+.available-appointment.alert .center-wrapper {
+    width: 100%;
+}
+
+.available-appointment.alert .close,
+.available-appointment.alert .close:hover {
+    color: #ffffff;
+    padding: 0px;
+    position: relative;
+}
+
+header {
+    background-color: #EBE1D9;
+}
+
+.navbar-light .navbar-toggler {
+    color: #054D67!important;
+    border: 0!important;
+}
+
+.navbar-toggler span {
+    background-image: url( '/img/menu.svg')!important;
+    width: 26px;
+    height: 20px;
+    display: block!important;
+}
+
+.navbar-toggler:focus span,
+.navbar-toggler:focus-visible span {
+    opacity: .75;
+}
+
+.nav-item {
+    padding-left: .5rem!important;
+    padding-right: .5rem!important;
+}
+
+.nav-link {
+    color: #054D67!important;
+    font-weight: 600!important;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block!important;
+}
+
+.nav-link.disabled {
+    color: #B4B3B2!important;
+}
+
+.nav-link:focus-visible::before {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: '';
+    height: 0.2rem;
+    background-color: rgb(12 73 96 / 50%);
+    border-radius: 0.1rem;
+}
+
+.dropdown-menu {
+    background-color: #044d67!important;
+    border: none!important;
+    border-radius: 10px!important;
+    -webkit-box-shadow: 0px 7px 10px 0px rgb(0 0 0 / 10%);
+    box-shadow: 0px 7px 10px 0px rgb(0 0 0 / 10%);
+}
+
+.dropdown-menu.show {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.dropdown-menu .dropdown-item {
+    color: #F5F0EC!important;
+    font-weight: 600!important;
+    text-transform: uppercase;
+    font-size: 0.65rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+}
+
+.dropdown-menu .dropdown-item:active,
+.dropdown-menu .dropdown-item:hover,
+.dropdown-menu .dropdown-item:focus {
+    color: #044d67!important;
+    background-color: #F5F0EC!important;
+}
+
+h2 {
+    font-size: 1rem!important;
+    color: #476974;
+    font-weight: 600!important;
+    display: inline-block;
+    margin-bottom: 1rem!important;
+}
+
+h2::after {
+    content: ' ';
+    background-color: #476974;
+    height: 4px;
+    width: 110%;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+h2::after {
+    content: ' ';
+    background-color: #476974;
+    height: 4px;
+    width: 110%;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+h1 {
+    font-size: 0.95rem!important;
+    color: #787573;
+    font-weight: 600!important;
+    display: inline-block;
+    margin-bottom: .5rem!important;
+}
+
+h3 {
+    font-size: 0.75rem!important;
+    color: #73706E;
+    font-weight: 500!important;
+    display: inline-block;
+    margin-bottom: 1rem!important;
+}
+
+.intro p {
+    white-space: break-spaces;
+    color: #63605E!important;
+    font-size: 0.8rem!important;
+}
+
+.intro .profile {
+    text-align: center;
+}
+
+.intro img {
+    border-radius: 200px;
+    border: 10px solid #FAF5F1;
+    margin-bottom: 1rem;
+}
+
+.infos p {
+    white-space: break-spaces;
+    color: #63605E!important;
+    font-size: 0.8rem!important;
+}
+
+.available-appointment-info {
+    color: #5BA65E!important;
+    font-size: 0.6rem;
+    font-weight: 600;
+    padding: .6rem 1.3rem!important;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.available-appointment-info object {
+    position: relative;
+    top: 2px;
+    filter: invert(58%) sepia(68%) saturate(304%) hue-rotate(73deg) brightness(86%) contrast(89%);
+}
+
+.infos .navbar-nav {
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.infos .nav-link {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.btn-offices {
+    margin-bottom: 60px;
+}
+
+@media (min-width: 768px) {
+    .offices-row {
+        display: block!important;
+    }
+
+    .offices-row .col-12 {
+        display: inline!important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .infos {
+        margin-left: -30px!important;
+        margin-right: -30px!important;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .info-nav-container {
+        z-index: 20;
+        width: auto!important;
+        max-width: unset!important;
+        overflow-y: hidden;
+        overflow-x: auto;
+        white-space: nowrap;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+
+    .infos .navbar-nav {
+        display: block;
+        width: auto!important;
+        max-width: unset!important;
+    }
+
+    .infos .nav-item {
+        display: inline-block!important;
+        padding-left: 15px!important;
+        padding-right: 15px!important;
+    }
+
+    .infos .nav-item:last-child {
+        padding-right: 30px!important;
+    }
+
+    .info-container {
+        padding-left: 30px!important;
+        padding-right: 30px!important;
+        z-index: 10;
+    }
+
+
+    .btn-offices {
+        margin-bottom: 20px!important;
+    }
+
+    .available-appointment-info {
+        padding-left: 0!important;
+    }
+
+    .info-content {
+        margin-top: -200px;
+        padding-top: 200px!important;
+    }
+
+    .office > div:first-child {
+        min-height: 200px;
+    }
+
+    .office {
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+}
+
+.info-content {
+    margin-top: -60px;
+    padding-top: 60px!important;
+}
+
+.map {
+    background-size: cover;
+    text-align: center;
+}
+
+.map-v {
+    background-image: url(/img/pszichologus-rendelo-budapest-v-ker-szarka-vivien.png);
+}
+
+.map-ix {
+    background-image: url(/img/pszichologus-rendelo-budapest-ix-ker-szarka-vivien.png);
+}
+
+.map-dunakeszi {
+    background-image: url(/img/pszichologus-rendelo-dunakeszi-szarka-vivien.png);
+}
+
+.map > div {
+    background-color: rgba(212,159,134,0.5);
+}
+
+.office {
+    -webkit-box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.1); 
+    box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.office-details {
+    background-color: #ffffff;
+    padding: 30px!important;
+}
+
+.office-locality {
+    color: #476974;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.office-address {
+    color: #555555;
+    font-size: .8rem;
+    font-weight: 600;
+    padding-bottom: .5rem;
+}
+
+.office .available {
+    color: #5BA65E!important;
+    font-size: 0.6rem;
+    font-weight: 600;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.office .available object {
+    position: relative;
+    top: 2px;
+    filter: invert(58%) sepia(68%) saturate(304%) hue-rotate(73deg) brightness(86%) contrast(89%);
+}
+
+#rendelesem {
+    margin-top: -60px;
+    padding-top: 60px;
+}
+
+.office .btn-primary {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.kapcsolat {
+    position: relative;
+}
+
+#kapcsolat {
+    z-index: 20;
+    position: relative;
+    margin-top: -60px;
+    padding-top: 60px;
+}
+
+.kapcsolat::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 120px;
+    background-color: #F5F0EC;
+    z-index: 20;
+}
+
+@media (max-width: 1000px) {
+    .kapcsolat::after {
+        height: 0;
+    }
+}
+
+footer {
+    background-color: #ffffff;
+}
+
+footer a {
+    color: #054D67;
+}
