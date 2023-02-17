@@ -364,6 +364,17 @@ h3 {
         margin-left: 0!important;
         margin-right: 0!important;
     }
+
+    #cookieConsentChangeForContact {
+        margin-left: -30px;
+        margin-right: -30px;
+    }
+
+    #profile-picture {
+        width: 80%!important;
+        height: auto!important;
+        max-width: 260px!important;
+    }
 }
 
 .info-content {
@@ -377,15 +388,15 @@ h3 {
 }
 
 .map-v {
-    background-image: url(/img/pszichologus-rendelo-budapest-v-ker-szarka-vivien.png);
+    background-image: url(/img/pszichologus-rendelo-budapest-v-ker-szarka-vivien.webp);
 }
 
 .map-ix {
-    background-image: url(/img/pszichologus-rendelo-budapest-ix-ker-szarka-vivien.png);
+    background-image: url(/img/pszichologus-rendelo-budapest-ix-ker-szarka-vivien.webp);
 }
 
 .map-dunakeszi {
-    background-image: url(/img/pszichologus-rendelo-dunakeszi-szarka-vivien.png);
+    background-image: url(/img/pszichologus-rendelo-dunakeszi-szarka-vivien.webp);
 }
 
 .map > div {
