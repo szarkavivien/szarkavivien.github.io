@@ -24,6 +24,17 @@
 
         <script src="/js/jquery/jquery3.min.js?=1"></script>
         <script src="/js/bootstrap/bootstrap.bundle.min.js?=1" defer></script>
+        
+        <!-- Google tag (gtag.js) -->
+        <script type="text/plain" data-cookiecategory="analytics" async src="https://www.googletagmanager.com/gtag/js?id=G-KRDN943VBV"></script>
+        <script type="text/plain" data-cookiecategory="analytics">
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-KRDN943VBV');
+            gtag('config', 'AW-356945404');
+        </script>
     </head>
     <body>
         <main class="container-fluid">
@@ -31,5 +42,10 @@
                 <h1 style="color: #054D67!important;">Sikeres üzenetküldés!</h1>
             </div>
         </div>
+        
+        <!-- Event snippet for kapcsolat conversion page -->
+        <script>
+          gtag('event', 'conversion', {'send_to': 'AW-356945404/D9CgCI_exI0YEPybmqoB'});
+        </script>
     </body>
 </html>
