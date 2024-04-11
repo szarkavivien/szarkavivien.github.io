@@ -8,7 +8,7 @@ function onCookieConsentChange(cookie) {
     }
 }
 
-window.addEventListener('load', function(){
+document.addEventListener('DOMContentLoaded', function(){
     
     // obtain plugin
     var cc = initCookieConsent();

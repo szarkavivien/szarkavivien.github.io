@@ -129,7 +129,7 @@ header {
 }
 
 .navbar-toggler span {
-    background-image: url( '/img/menu.svg')!important;
+    background-image: url('https://szarkavivien.hu/img/menu.svg')!important;
     width: 26px;
     height: 20px;
     display: block!important;
@@ -388,15 +388,15 @@ h3 {
 }
 
 .map-v {
-    background-image: url(/img/pszichologus-rendelo-budapest-v-ker-szarka-vivien.webp);
+    background-image: url(https://szarkavivien.hu/img/pszichologus-rendelo-budapest-v-ker-szarka-vivien.webp);
 }
 
 .map-ix {
-    background-image: url(/img/pszichologus-rendelo-budapest-ix-ker-szarka-vivien.webp);
+    background-image: url(https://szarkavivien.hu/img/pszichologus-rendelo-budapest-ix-ker-szarka-vivien.webp);
 }
 
 .map-dunakeszi {
-    background-image: url(/img/pszichologus-rendelo-dunakeszi-szarka-vivien.webp);
+    background-image: url(https://szarkavivien.hu/img/pszichologus-rendelo-dunakeszi-szarka-vivien.webp);
 }
 
 .map > div {
