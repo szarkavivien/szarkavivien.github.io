@@ -275,6 +275,12 @@
                 margin-bottom: 1rem;
             }
 
+            @media (max-width: 440px) {
+                .intro a[href="#rendelesem"] {
+                    margin-top: 0!important;
+                }
+            }
+
             .relative {
                 z-index: 1 !important;
                 position: relative;
@@ -579,9 +585,6 @@
         </script>
     </head>
     <body>
-        <div id="fb-root"></div>
-        <script type="text/plain" data-cookiecategory="marketing" async defer crossorigin="anonymous" src="https://connect.facebook.net/hu_HU/sdk.js#xfbml=1&version=v16.0&appId=2223304627809482&autoLogAppEvents=1" nonce="A0svJs3D"></script>
-
         <header class="container-fluid">
             <nav class="container navbar navbar-expand-md navbar-light pt-5">
                 <button class="navbar-toggler ml-auto" onclick="hasClass(document.getElementById('navbarNav'), 'show') ? removeClass(document.getElementById('navbarNav'), 'show') : addClass(document.getElementById('navbarNav'), 'show');" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -622,7 +625,9 @@
 Munkám során a legfontosabbnak a terápiás kapcsolatot, a pszichológus és kliens között létrejött szövetséget tartom, az abban megélt bizalmat, biztonságot, elfogadást, támogatást.
                             
 Az általam alkalmazott pszichoterápiás módszerek az online térben is alkalmazhatók, így a személyes ülések (Budapest Kálvin tér, Boráros tér) mellett lehetőség van Skype konzultációkra is.</p>
-                        <a href="#amiben-segithetek" onclick="infoMenu(this.getAttribute('href'))" class="btn btn-primary mt-3 mb-4 mr-4">Amiben segíthetek</a> <span id="shareButton" class="mb-4"><br></span>
+                        <a href="#amiben-segithetek" onclick="infoMenu(this.getAttribute('href'))" class="btn btn-primary mt-3 mb-4 mr-4">Amiben segíthetek &nbsp;<object alt="tovább ikon" tabindex="-1" data="https://szarkavivien.hu/img/arrow-right-solid.svg" width="16" height="16"> </object></a> 
+                        <a href="#rendelesem" class="btn btn-secondary mt-3 mb-4 mr-4">Rendelésem &nbsp;<object alt="tovább ikon" tabindex="-1" data="https://szarkavivien.hu/img/arrow-right-solid.svg" width="16" height="16"> </object></a>
+                        <br>
                     </div>
                     <div class="col-12 col-md-4 profile pt-5 order-1 order-md-2">
                         <img id="profile-picture" src="https://szarkavivien.hu/img/szarka-vivien-klinikai-szakpszichologus.webp?1" loading="lazy" alt="Szarka Vivien klinikai szakpszichológus: Budapest - Online" width="210" height="210" /><br>

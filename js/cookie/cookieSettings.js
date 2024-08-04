@@ -2,10 +2,6 @@ function onCookieConsentChange(cookie) {
     if (cookie.categories.includes("contact")) {
         document.getElementById('cookieConsentChangeForContact').innerHTML = '<iframe id="JotFormIFrame-230436398346058" title="Kapcsolat" onload="" allowtransparency="true" allowfullscreen="true" allow="geolocation" src="https://form.jotform.com/230436398346058" frameborder="0" style="min-width:100%;max-width:100%;height:539px;border:none;z-index: 5;" scrolling="no" ></iframe>';
     }
-
-    if (cookie.categories.includes("marketing")) {
-        document.getElementById('shareButton').innerHTML = '<div class="fb-share-button" data-href="https://szarkavivien.hu" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fszarkavivien.hu%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Megosztás</a></div>';
-    }
 }
 
 document.addEventListener('DOMContentLoaded', function(){
@@ -97,14 +93,6 @@ document.addEventListener('DOMContentLoaded', function(){
                             description: 'A felhasználói élmény fejlesztése céljából, ezeknek a sütiknek a használatával, az üzemeltető megismerheti, hogy a látogatók milyen módon használják a weboldalt. A gyűjtött adatok anonimizáltak, így az üzemeltető nem képes beazonosítani Önt.',
                             toggle: {
                                 value: 'analytics',
-                                enabled: false,
-                                readonly: false
-                            }
-                        }, {
-                            title: 'Kényelmi, marketing célú, harmadik féltől származó sütik',
-                            description: 'Például ezeknek a funkcióknak a segítségével a látogató maga is megoszthatja, népszerűsítheti a weboldalt. A harmadik fél által biztosított marketing célú kényelmi funkciók sütiket vehetnek igénybe.',
-                            toggle: {
-                                value: 'marketing',
                                 enabled: false,
                                 readonly: false
                             }
