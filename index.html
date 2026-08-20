@@ -635,11 +635,11 @@
                         <div class="dropdown-menu" id="infoDropdown">
                             <a class="dropdown-item" href="#amiben-segithetek" onclick="infoMenu(this.getAttribute('href')); removeClass(document.getElementById('infoDropdown'), 'show'); removeClass(document.getElementById('navbarNav'), 'show');">Amiben segíthetek</a>
                             <a class="dropdown-item" href="#kepzettsegem" onclick="infoMenu(this.getAttribute('href')); removeClass(document.getElementById('infoDropdown'), 'show'); removeClass(document.getElementById('navbarNav'), 'show');">Képzettségem</a>
+                            <a class="dropdown-item" href="#terapia" onclick="infoMenu(this.getAttribute('href')); removeClass(document.getElementById('infoDropdown'), 'show'); removeClass(document.getElementById('navbarNav'), 'show');">A terápia számomra</a>
                             <a class="dropdown-item" href="#fontos-informaciok" onclick="infoMenu(this.getAttribute('href')); removeClass(document.getElementById('infoDropdown'), 'show'); removeClass(document.getElementById('navbarNav'), 'show');">Fontos információk</a>
                             <a class="dropdown-item" href="#arak" onclick="infoMenu(this.getAttribute('href')); removeClass(document.getElementById('infoDropdown'), 'show'); removeClass(document.getElementById('navbarNav'), 'show');">Árak</a>
                             <a class="dropdown-item" href="#gdpr" onclick="infoMenu(this.getAttribute('href')); removeClass(document.getElementById('infoDropdown'), 'show'); removeClass(document.getElementById('navbarNav'), 'show');">GDPR</a>
                             <a class="dropdown-item" href="#signal-segitseg" onclick="infoMenu(this.getAttribute('href')); removeClass(document.getElementById('infoDropdown'), 'show'); removeClass(document.getElementById('navbarNav'), 'show');">A Signal első használata</a>
-                            <a class="dropdown-item" href="#terapia" onclick="infoMenu(this.getAttribute('href')); removeClass(document.getElementById('infoDropdown'), 'show'); removeClass(document.getElementById('navbarNav'), 'show');">Mit jelent számomra a terápia</a>
                         </div>
                     </li>
                     <li class="nav-item">
@@ -685,6 +685,9 @@ Az általam alkalmazott pszichoterápiás módszerek az online térben is alkalm
                               <a class="nav-link" href="#kepzettsegem" onclick="infoMenu(this.getAttribute('href'), event)">Képzettségem</a>
                             </li>
                             <li class="nav-item">
+                              <a class="nav-link" href="#terapia" onclick="infoMenu(this.getAttribute('href'), event)">A terápia számomra</a>
+                            </li>
+                            <li class="nav-item">
                               <a class="nav-link" href="#fontos-informaciok" onclick="infoMenu(this.getAttribute('href'), event)">Fontos információk</a>
                             </li>
                             <li class="nav-item">
@@ -695,9 +698,6 @@ Az általam alkalmazott pszichoterápiás módszerek az online térben is alkalm
                             </li>
                             <li class="nav-item">
                               <a class="nav-link" href="#signal-segitseg" onclick="infoMenu(this.getAttribute('href'), event)">A Signal első használata</a>
-                            </li>
-                            <li class="nav-item">
-                              <a class="nav-link" href="#terapia" onclick="infoMenu(this.getAttribute('href'), event)">Mit jelent számomra a terápia</a>
                             </li>
                         </ul>
                     </div>
@@ -717,6 +717,16 @@ Várom, ha úgy érzi, olyan nehézséggel néz szembe, melynek leküzdéséhez 
 Pályám elején hátrányos helyzetű, a társadalom perifériájára szorult emberekkel foglalkoztam, mely munka igazán megtanított arra, hogy minden embernek megvan a saját története, mely történet elmondásra és meghallgatásra érdemes.
                                 
 Munkám során rendszeresen járok szupervízióba, valamint csoportos és egyéni sajátélménnyel is rendelkezem, melyeket elengedhetetlennek tartok ahhoz, hogy a lehető legjobban segíteni tudjam a hozzám forduló klienseimet.</p>
+                        </div>
+                        <div class="info-content" id="terapia">
+                            <h2>A terápia számomra</h2>
+                            <p>Számomra a terápia elsősorban egy biztonságos, őszinte emberi találkozás, ahol lehetőség nyilik közelebb kerülni önmagunkhoz és ahhoz is, ahogyan másokhoz kapcsolódunk.
+
+Yalom gondolatai nyomán hiszek abban, hogy a terápiás kapcsolat maga is a gyógyulás egyik legfontosabb terepe: abban, ahogyan a kliens és a terapeuta egymáshoz kapcsolódik, megjelenhetnek azok a régi, sokszor tudattalan minták, amelyek a hétköznapi kapcsolatainkat is meghatározzák.
+
+Egy elfogadó és ítelkezéstől mentes kapcsolatban lehetöség nyilik arra, hogy ezeket ne csak felismerjük és megértsük, hanem valami újat is megtapasztaljunk: hogy kapcsolódhatunk másokhoz úgy, hogy közben önmagunkat sem kell feladnunk.
+
+Hiszem, hogy ez az új tapasztalat idóvel túlmutat a terápiás szobán, és segit abban, hogy szabadabban, tudatosabban és egészségesebben legyünk jelen a saját kapcsolatainkban és az életünkben.</p>
                         </div>
                         <div class="info-content" id="fontos-informaciok">
                             <h2>Fontos információk</h2>
@@ -828,16 +838,6 @@ Az adatvédelmi perek elbírálása a törvényszék hatáskörébe tartozik. A 
                             <br>
                             <h3>Az első beszélgetés</h3>
                             <p>A Signal felületén telefonszám, vagy megadott felhasználónév alapján találhatjuk meg, akivel beszélni szeretnénk.</p>
-                        </div>
-                        <div class="info-content" id="terapia">
-                            <h2>Mit jelent számomra a terápia</h2>
-                            <p>Számomra a terápia elsősorban egy biztonságos, őszinte emberi találkozás, ahol lehetőség nyilik közelebb kerülni önmagunkhoz és ahhoz is, ahogyan másokhoz kapcsolódunk.
-
-Yalom gondolatai nyomán hiszek abban, hogy a terápiás kapcsolat maga is a gyógyulás egyik legfontosabb terepe: abban, ahogyan a kliens és a terapeuta egymáshoz kapcsolódik, megjelenhetnek azok a régi, sokszor tudattalan minták, amelyek a hétköznapi kapcsolatainkat is meghatározzák.
-
-Egy elfogadó és ítelkezéstől mentes kapcsolatban lehetöség nyilik arra, hogy ezeket ne csak felismerjük és megértsük, hanem valami újat is megtapasztaljunk: hogy kapcsolódhatunk másokhoz úgy, hogy közben önmagunkat sem kell feladnunk.
-
-Hiszem, hogy ez az új tapasztalat idóvel túlmutat a terápiás szobán, és segit abban, hogy szabadabban, tudatosabban és egészségesebben legyünk jelen a saját kapcsolatainkban és az életünkben.</p>
                         </div>
                         <div class="row offices-row">
                             <div class="col-12 order-2">
